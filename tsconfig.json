@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/app/not-found.js", "src/app/layout.js", "src/app/test/page.js", "src/app/dashboard/about/page.js", "src/app/dashboard/template.js", "src/app/dashboard/page.js", "src/app/dashboard/layout.js", "src/app/(hero)/layout.js", "src/app/(hero)/page.js", "src/app/(hero)/scale/page.js", "src/app/(hero)/reliability/page.js", "src/app/(hero)/performance/page.js", "src/components/hero.js", "src/components/header.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
